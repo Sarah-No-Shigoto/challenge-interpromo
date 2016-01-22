@@ -1,0 +1,127 @@
+header {
+	background: url('../images/payments-banner-graphic.png');
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+.intro input {
+	padding: 17px 53px;
+}
+
+.ready input {
+	padding: 17px 24px;
+}
+
+.intro, .ready {
+	text-align: center;
+}
+
+
+/*======= LAYOUT =======*/
+nav {
+	padding-top: 25px;
+}
+
+nav ul, article, .bottom-menu {
+	width: 100%;
+}
+
+nav ul, .trio, .bottom-menu {
+	display: inline-flex;
+	justify-content:space-around;
+}
+
+.trio div {
+	text-align: center;
+	position: relative;
+	width: 30%;
+}
+
+.trio div h3 {
+	display: flex;
+	flex-direction:column;
+}
+
+h1 {
+	font-size: 2em;
+	margin-bottom: 36px;
+}
+
+/*====== FONTS ======*/
+
+body {
+	font-family: sans-serif;
+}
+
+.intro, .trio, .ready {
+	font-family: 'Open Sans';
+}
+
+/*====== THEMES =====*/
+
+header, a {
+	color: #fefefe;
+}
+
+header input {
+	background-color: #fefefe;
+	color: #7272a2;
+}
+
+.trio, .ready {
+	color: #4d4d4d;
+}
+
+.pricing {
+	background-color: #f6f9fb;
+}
+
+.middle-banner {
+	background-color: #4c535c;
+}
+
+.ready {
+	background-color: #fcfcfc;
+	border-top: 1px solid #ddd;
+}
+
+.ready input {
+	background-color: #00ab83;
+	color: #f6f6c9;
+}
+
+footer {
+	background-color: #242629;
+}
+
+/*========== PSEUDO-CLASSES ==========*/
+
+.home a:before {
+	content: url('../images/logo-icon-white.png');
+	width: 10%;
+	height: 10%;
+}
+
+.trio div:not(:last-child) {
+	border-right: 1px solid #ddd;
+}
+
+.quick h3:before {
+	content: url('../images/payments-calendar-icon.svg');
+}
+
+.beautiful h3:before {
+	content: url('../images/payments-mail-icon.svg');
+}
+
+.secure h3:before {
+	content: url('../images/payments-methods-icon.svg');
+}
